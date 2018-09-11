@@ -1,0 +1,25 @@
+{
+    "node": "18.218.68.94",
+    "port": 80,
+    "sslPort": 443,
+    "payPerClick": 10,
+    "cooldown": 3600,
+    "paySchedule": "0 * * * * *",
+    "payMinimum": 10,
+    "txFee": 0.1,
+    "log": "tx.log",
+    "database": {
+        "username": "phntmorg",
+        "password": "F2csrc986"
+    },
+    "recaptcha": {
+        "siteKey": "6Les5W0UAAAAAAnsWdchw098F6Q1ltz-qGT6_zkV",
+        "secretKey": "6Les5W0UAAAAACoF0AtJvkyyJQQwsfqnnE3i7h0G"
+    },
+    "ssl": {
+        "active": true,
+        "cert": "../ssl/wildcard.phantom.org.crt",
+        "ca": "../ssl/wildcard.bundle.phantom.org.crt",
+        "key": "../ssl/wildcard.phantom.org.key"
+    }
+}
